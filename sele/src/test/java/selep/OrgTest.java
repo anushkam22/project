@@ -11,7 +11,7 @@ public class OrgTest{
 		System.out.println("execute org");
 	}
 	
-	@Test
+	@Test(groups = "FR")
 	public void modifyOrgTest()
 	{
 		System.out.println("modify org ");

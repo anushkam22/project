@@ -4,13 +4,13 @@ import org.testng.annotations.Test;
 
 public class ContavtTest {
 	
-	@Test
+	@Test(groups = {"smoke", "FR"})
 	public void getContactTest()
 	{
 		System.out.println("execute con");
 	}
 	
-	@Test
+	@Test(groups = "FR")
 	public void getContactTestw()
 	{
 		System.out.println("execute con");
