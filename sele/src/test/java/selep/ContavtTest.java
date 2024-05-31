@@ -16,6 +16,13 @@ public class ContavtTest {
 		System.out.println("execute con");
 	}
 	
+	
+	@Test(groups = "FR")
+	public void getContactTestwo()
+	{
+		System.out.println("execute con");
+	}
+	
 	@Test
 	public void modifyTest()
 	{
